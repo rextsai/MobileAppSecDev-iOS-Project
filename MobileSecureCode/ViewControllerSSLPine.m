@@ -204,10 +204,6 @@
 
     NSLog(@"challenge.protectionSpace.host=%@", challenge.protectionSpace.host);
     
-    //if ([trustedHosts containsObject:challenge.protectionSpace.host]){
-    //    [challenge.sender useCredential:[NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust] forAuthenticationChallenge:challenge];
-    //}
-    
     [challenge.sender useCredential:[NSURLCredential credentialForTrust:challenge.protectionSpace.serverTrust] forAuthenticationChallenge:challenge];
 
     

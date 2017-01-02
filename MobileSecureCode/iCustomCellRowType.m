@@ -40,7 +40,7 @@
         primaryLabel.numberOfLines = 3;
         primaryLabel.adjustsFontSizeToFitWidth = TRUE;
         primaryLabel.minimumScaleFactor = 0.6f;
-        [primaryLabel setTextColor:[UIColor grayColor]];
+        [primaryLabel setTextColor:[UIColor blueColor]];
         [self.contentView addSubview:primaryLabel];
     }
     return self;

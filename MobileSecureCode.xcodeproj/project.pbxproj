@@ -52,7 +52,7 @@
 		CDB1802A1DB1EB9900D00E26 /* ViewControllerAddressBook.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB180291DB1EB9900D00E26 /* ViewControllerAddressBook.m */; };
 		CDB1802D1DB1F17B00D00E26 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB1802B1DB1F17B00D00E26 /* AddressBook.framework */; };
 		CDB1802E1DB1F17B00D00E26 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB1802C1DB1F17B00D00E26 /* AddressBookUI.framework */; };
-		CDD65B761D56332F008B6E6C /* gca2.der in Resources */ = {isa = PBXBuildFile; fileRef = CDD65B751D56332F008B6E6C /* gca2.der */; };
+		CDC7551F1E19DC3000520B8C /* gca2.der in Resources */ = {isa = PBXBuildFile; fileRef = CDC7551E1E19DC3000520B8C /* gca2.der */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -133,7 +133,7 @@
 		CDB180291DB1EB9900D00E26 /* ViewControllerAddressBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewControllerAddressBook.m; sourceTree = "<group>"; };
 		CDB1802B1DB1F17B00D00E26 /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		CDB1802C1DB1F17B00D00E26 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
-		CDD65B751D56332F008B6E6C /* gca2.der */ = {isa = PBXFileReference; lastKnownFileType = file; name = gca2.der; path = ../../../Downloads/gca2.der; sourceTree = "<group>"; };
+		CDC7551E1E19DC3000520B8C /* gca2.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = gca2.der; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,7 +156,7 @@
 		CD38B0F01D430E65008D71E4 /* assets */ = {
 			isa = PBXGroup;
 			children = (
-				CDD65B751D56332F008B6E6C /* gca2.der */,
+				CDC7551E1E19DC3000520B8C /* gca2.der */,
 				17D452D41D5166130004775D /* Setting.sqlite */,
 				CD40DF321D515FCC00C5C9AA /* Setting.sql */,
 				CD6281DE1D44769800B7D949 /* secure-image.png */,
@@ -367,7 +367,7 @@
 				CD6281DF1D44769800B7D949 /* secure-image.png in Resources */,
 				17D452D51D5166130004775D /* Setting.sqlite in Resources */,
 				CD3B22531D43AA710073EB3D /* secrets.plist in Resources */,
-				CDD65B761D56332F008B6E6C /* gca2.der in Resources */,
+				CDC7551F1E19DC3000520B8C /* gca2.der in Resources */,
 				CD45A9FC1D411EF50059DC0A /* Assets.xcassets in Resources */,
 				CD45A9F71D411EF50059DC0A /* Main.storyboard in Resources */,
 			);
